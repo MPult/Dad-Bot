@@ -52,4 +52,4 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 See also the list of [contributors](https://github.com/qay2005/dad-bot/contributors) who participated in this project.
 
 ## License
-This project is licenced under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/legalcode) licence
+This project is licenced under the [CC0-1.0 License](https://github.com/MPult/Dad-Bot/blob/main/LICENSE) licence
