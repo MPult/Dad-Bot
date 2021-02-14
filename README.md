@@ -41,22 +41,15 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-All notable changes to this project will be documented in [changelog](https://github.com/qay2005/Dad-Bot/blob/main/.github/changelog.md).
+All notable changes to this project will be documented in the [changelog](https://github.com/qay2005/Dad-Bot/blob/main/.github/changelog.md).
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Max** - *Initial work* - [qay2005](https://github.com/qay2005)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/qay2005/dad-bot/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
