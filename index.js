@@ -7,15 +7,10 @@ const jokes = require('./jokes.json')
 
 client.on('ready', () => {
     //when bot is logged in
-    console.log(`Logged in as ${client.user.tag}!`);
+    console.log("Beep! Boop! I'm Ready 🤖");
+    client.user.setActivity("Dad-bod? Nah Dad-Bot");
 });
 
-client.on('message', msg => {
-    //when msg is ping (testing purposes)
-    if (msg.content === 'ping') {
-    msg.reply('pong');
-    }
-});
 
 client.on('message', msg => {
     //the old dad im hungry joke
@@ -99,7 +94,8 @@ client.on('message', async message => {
                 console.log(error)
             })
             dispatcher.on('finish', () => {
-                dispatcher.destroy();
+                connection.disconnect();
+                console.log("done")
             })
         }
     }
