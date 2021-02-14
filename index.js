@@ -36,7 +36,7 @@ client.on('message', msg => {
 client.on('message', msg => {
     //plain simple dadjoke
     if (msg.author.bot) return;
-    if (msg.content.toLowerCase() == "!dadjoke") {
+    if (msg.content.toLowerCase() == "?dadjoke") {
         const length = jokes.dadJokes.length
         let index = Math.floor(Math.random() * length)
         console.log('dad joke length: ' + length);
@@ -48,7 +48,7 @@ client.on('message', msg => {
 client.on('message', msg => {
     //Simple grman dad joke (AKA: flachwitz)
     if (msg.author.bot) return;
-    if (msg.content.toLowerCase() == "!flachwitz") {
+    if (msg.content.toLowerCase() == "?flachwitz") {
         const length = jokes.flachwitz.length
         let index = Math.floor(Math.random() * length)
         console.log('flachwitz length: ' + length);
@@ -60,7 +60,7 @@ client.on('message', msg => {
 client.on('message', msg => {
     //Simple coding joke
     if (msg.author.bot) return;
-    if (msg.content.toLowerCase() == "!codejoke" || msg.content.toLowerCase() == '!codingjoke') {
+    if (msg.content.toLowerCase() == "?codejoke" || msg.content.toLowerCase() == '!codingjoke') {
         const length = jokes.codingJoke.length
         let index = Math.floor(Math.random() * length)
         console.log('coding joke length: ' + length);
@@ -68,4 +68,18 @@ client.on('message', msg => {
         msg.reply(jokes.codingJoke[index]);
     }
 });
+
+client.on('message', msg => {
+    if (msg.content.toLowerCase() == '?help') {
+        const embed = new Discord.MessageEmbed()
+            .setTitle('Help')
+            .setDescription('Here is a list of my commands:')
+            .addFields(
+                { name: '?dadjoke', value: 'This shows a random dad-joke'},
+                { name: '?flachwitz', value: 'This shows a random german dad-joke (AKA: Flachwitz)'},
+                { name: '?help', value: 'Shows this page, so meta!'}
+            )
+        msg.channel.send(embed);
+    }
+})
 client.login(process.env.BOTTOKEN);
