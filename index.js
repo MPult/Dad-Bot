@@ -38,7 +38,7 @@ client.on('message', msg => {
     if (msg.author.bot) return;
     if (msg.content.toLowerCase() == "!dadjoke") {
         const length = jokes.dadJokes.length
-        let index = Math.floor(Math.random() * (1 + length - 0))
+        let index = Math.floor(Math.random() * length)
         console.log('dad joke length: ' + length);
         console.log('dad joke index: ' + index);
         msg.reply(jokes.dadJokes[index]);
@@ -50,7 +50,7 @@ client.on('message', msg => {
     if (msg.author.bot) return;
     if (msg.content.toLowerCase() == "!flachwitz") {
         const length = jokes.flachwitz.length
-        let index = Math.floor(Math.random() * (length - 0))
+        let index = Math.floor(Math.random() * length)
         console.log('flachwitz length: ' + length);
         console.log('flachwitz index: ' + index);
         msg.reply(jokes.flachwitz[index]);
@@ -62,7 +62,7 @@ client.on('message', msg => {
     if (msg.author.bot) return;
     if (msg.content.toLowerCase() == "!codejoke" || msg.content.toLowerCase() == '!codingjoke') {
         const length = jokes.codingJoke.length
-        let index = Math.floor(Math.random() * (1 + length - 0))
+        let index = Math.floor(Math.random() * length)
         console.log('coding joke length: ' + length);
         console.log('coding joke index: ' + index);
         msg.reply(jokes.codingJoke[index]);
