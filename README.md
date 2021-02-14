@@ -19,7 +19,7 @@ A step by step series of examples that tell you how to get a development enviorn
 
 Clone the repository
 ``` shell
-$ git clone https://github.com/qay2005/Dad-Bot.git
+$ git clone https://github.com/Mpult/Dad-Bot.git
 ```
 Install modules
 ``` shell
@@ -41,15 +41,15 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-All notable changes to this project will be documented in the [changelog](https://github.com/qay2005/Dad-Bot/blob/main/.github/changelog.md).
+All notable changes to this project will be documented in the [changelog](https://github.com/Mpult/Dad-Bot/blob/main/.github/changelog.md).
 
 The format is based on Keep a Changelog, and this project adheres to Semantic Versioning.
 
 ## Authors
 
-* **Max** - *Initial work* - [qay2005](https://github.com/qay2005)
+* **Max** - *Initial work* - [qay2005](https://github.com/Mpult)
 
-See also the list of [contributors](https://github.com/qay2005/dad-bot/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Mpult/dad-bot/contributors) who participated in this project.
 
 ## License
 This project is licenced under the [CC0-1.0 License](https://github.com/MPult/Dad-Bot/blob/main/LICENSE) licence
