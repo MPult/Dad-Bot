@@ -23,7 +23,7 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-** Please complete the following information:**
+**Please complete the following information:**
  - Node.js version: 
  - Dad-Bot version: 
 
