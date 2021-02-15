@@ -11,7 +11,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 * node.js
-* A discord application and bot
+* A discord application and bot, [See refernce, I know it's for discord.py and not discord.js](https://discordpy.readthedocs.io/en/latest/discord.html)
 
 ### Setting Development Enviornemt
 
