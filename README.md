@@ -1,6 +1,6 @@
 # Dad-Bot
 
-This is a discord bot running on node.js, the bot has a plethera of feature for those who need dad jokes in their discord server.
+This is a discord bot running on node.js, the bot has a plethera of features for those who need dad jokes in their discord server.
 
 ## Getting Started
 
