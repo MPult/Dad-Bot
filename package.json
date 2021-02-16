@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qay2005/Dad-Bot.git"
+    "url": "git+https://github.com/Mpult/Dad-Bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "CC BY-NC 4.0",
   "bugs": {
-    "url": "https://github.com/qay2005/Dad-Bot/issues"
+    "url": "https://github.com/Mpult/Dad-Bot/issues"
   },
-  "homepage": "https://github.com/qay2005/Dad-Bot#readme",
+  "homepage": "https://github.com/Mpult/Dad-Bot#readme",
   "dependencies": {
     "@discordjs/opus": "^0.4.0",
     "discord.js": "^12.5.1",
