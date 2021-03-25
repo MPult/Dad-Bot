@@ -60,7 +60,7 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 ## Authors
 
-* **Max** - *Initial work* - [qay2005](https://github.com/Mpult)
+* **Max** - *Initial work* - [Mpult](https://github.com/Mpult)
 
 See also the list of [contributors](https://github.com/Mpult/dad-bot/contributors) who participated in this project.
 
