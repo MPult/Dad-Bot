@@ -20,7 +20,7 @@
   "homepage": "https://github.com/Mpult/Dad-Bot#readme",
   "dependencies": {
     "@discordjs/opus": "^0.6.0",
-    "discord.js": "^13.2.0",
+    "discord.js": "^14.0.1",
     "dotenv": "^10.0.0",
     "ffmpeg-static": "^4.4.0",
     "monk": "^7.3.4"
